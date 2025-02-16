@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial Black', Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    background: white;
+    position: relative;
+}
+
+.login-container {
+    padding: 60px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 120px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-group label {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #666;
+    border: none;
+    border-bottom: 2px solid #000;
+    outline: none;
+    background: transparent;
+}
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.remember-me input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+.remember-me span {
+    font-size: 14px;
+}
+
+.done-btn {
+    background: #FFD000;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.done-btn:hover {
+    background: #e6bb00;
+}
+
+.signup-btn {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    background: #FFD000;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.signup-btn span {
+    font-size: 14px;
+}
+
+.info-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.info-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.mascot {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    background: #FFD000;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.mascot img {
+    width: 200px;
+    height: auto;
+}
+
